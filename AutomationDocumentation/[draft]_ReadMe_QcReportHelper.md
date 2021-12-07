@@ -1,25 +1,31 @@
 # p3-ReportHelper
+
 ***
+
 # QC Report Helper
+
 The QC Report Helper Robot is here to help make the process of finishing and filling out information regarding QC and the different batches easier.  Not only will this robot make it easier to fill out information, it will also make it faster and much more organized when filling out said information.
 
 ***
 
 ## MVP Functionalities
+
 - [ ] Extract data from Caliber and populate that data into the MS Form Report
 - [ ] Extract data from the SurveyMonkey PowerBI Dashboard and populate that data into the MS Form Report
 - [ ] Identify concerning associates based on QC grade trends:
-    -- Rules: 1 = red, 2 = yellow, 3 = green, 4 = blue
-    -- Flags: Any reds, 2+ reds in a row, no greens, any certain grade that is below a benchmark for QC
-    -- Limitation: Each blue cancels out a red
+  -- Rules: 1 = red, 2 = yellow, 3 = green, 4 = blue
+  -- Flags: Any reds, 2+ reds in a row, no greens, any certain grade that is below a benchmark for QC
+  -- Limitation: Each blue cancels out a red
 - [ ] Send automated emails upon completion of tasks with attached PDF copies of any report documents to the user
 - [ ] Should be able to allow user to enter notes of their own into the form after populating fields
 
 ## Stretch Goals
+
 - [ ] Create a summary of survey feedback from the SurveyMonkey PowerBI Dashboard into the form
 - [ ] Extract notes from an excel sheet and put it into Caliber.
 
 ## Tech Stack
+
 - UiPath Studio
 - UiPath Orchestrator
 - UiPath Activities
@@ -37,11 +43,13 @@ The QC Report Helper Robot is here to help make the process of finishing and fil
 
 - in_auditor (website input that selects desired information from automation)
 - in_email (website input that that selects desired email to send PDF from automation)
+- SurveyMonkey data (Excel workbook)
+- Caliber (API)
 
 
 ## Automation Outputs
 
-- Report.Helper.Dispacter – Dictionary to Orchestrator Queue
+- Report.Helper.Dispatcher – Dictionary to Orchestrator Queue
 - Report.Helper.Performer – Queue to MS Forms
 
 ## Startup documentation
