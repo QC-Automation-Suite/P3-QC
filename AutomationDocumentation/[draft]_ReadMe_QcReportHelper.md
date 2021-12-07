@@ -53,28 +53,6 @@ The QC Report Helper Robot is here to help make the process of finishing and fil
 - Report.Helper.Performer – Queue to MS Forms
 - PDF Document (saved printout of MS Forms output)
 
-## Startup documentation
-
-<ins>Steps For Orchestrator</ins>
-
-Queue
-
--Create a queue name justAqueue
-
-Queue Trigger
-
--For queue item select justAqueue 
-
--For process name select the process Report.Helper.Performer.
-
-<ins>Steps For Web App</ins>
-
-Open website at https://cloud.uipath.com/revaturemdamle/apps_/default/run/production/ID2faaf178bcab4bc5a9b4619c5b6b2d6b?origin=appsHomePage.
-
-Sign in with Microsoft Account
-
-Input auditor name and email
-
 ## License Prerequisites 
 
 - UiPath Studio License with access to both Unattended & Attended Robots
