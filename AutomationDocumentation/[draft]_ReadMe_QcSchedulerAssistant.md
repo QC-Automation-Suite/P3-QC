@@ -69,3 +69,23 @@ The Last sheet is the most important, and was begun on “12-6-21” which is th
 ## Output of Automation
 The outputs for our automation, the Updated Storage Bucket named “Schedule” and Email with PDF Attachment, require the user to provide a specific email address before initiating the automation by clicking the “Scheduler Assistant” button on the Web App API. To access the updated Storage Bucket “Automation User” and “Automation Developer permissions must be associated with the desired user, within the organization Tenant for the specific “Scheduler Assistant” folder where the latest version of the automation is published. 
 It is also necessary for the user to run the automation on a machine that has Microsoft Word, Powerpoint, and Excel installed, but no open instances of these programs running during use. 
+## License prerequisites
+- Windows 10 Home/Pro license 
+- Microsoft Word and Excel license
+- UiPath Studio license with access to both Unattended & Attended Robots
+## Software prerequisites
+- Windows 10
+- UiPath 2021.10.3
+- UiPath Assistant
+- Uipath Orchestrator
+  - https://cloud.uipath.com/
+- Microsoft Word
+- Microsoft Excel
+- Git
+
+## UiPath Studio Project Dependencies (minimum package version requirements)
+- UiPath.UIAutomation.Activities v21.10.3
+- UiPath.System.Activites v21.10.2
+- UiPath.Excel.Activities v2.11.4
+- UiPath.WebAPI.Activities v1.9.2
+- UiPath.Mail.Activities v1.12.3
