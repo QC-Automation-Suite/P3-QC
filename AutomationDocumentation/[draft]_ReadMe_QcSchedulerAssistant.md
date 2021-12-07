@@ -12,9 +12,10 @@ Roderick Lewis, Steven Agnor, Hassan Barakka
 This Automation requires the use of:
 - Microsoft Excel
 - Microsoft Word 
-- Adobe Acrobat Reader DC (PDF) 
+- Adobe Acrobat Reader DC
 - UiPath Orchestrator
 - UiPath Assistant
+- UiPath Studio
 - UiPath.UIAutomation.Activities v21.10.3
 - UiPath.System.Activites v21.10.2
 - UiPath.Excel.Activities v2.11.4
@@ -73,7 +74,7 @@ It is also necessary for the user to run the automation on a machine that has Mi
 - Windows 10 Home/Pro license 
 - Microsoft Word and Excel license
 - UiPath Studio license with access to both Unattended & Attended Robots
-- 
+
 ## Software prerequisites
 - Windows 10
 - UiPath 2021.10.3
