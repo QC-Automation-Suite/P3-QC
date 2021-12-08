@@ -13,7 +13,6 @@ The P0 Analyzer automation provides support to a Trainer or QC Auditor tasked wi
 
 ## MVP Features
 
-In the markdown language (file extension .md). The subsections for the MVP functions need to be noted in this format:
 - [x] Take in Project 0 Specifications
 	* Read from the GitHub URL to the _project requirements_ `ReadMe.md` file from GitHub for the desired batch's Project 0.
 	* Example: `https://github.com/[ batch organization ]/trainer-code/wiki/P0-Requirements.md`.
@@ -72,6 +71,7 @@ A data table with associate information is also appended to the report with the 
 ## Technology Stack
 
 - UiPath
+- VB.NET
 - Git
 
 ---

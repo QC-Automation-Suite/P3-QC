@@ -50,6 +50,7 @@ This automation designed to store and implement data processing following the _D
 ## Technology Stack
 
 - UiPath
+- VB.NET
 
 ---
 

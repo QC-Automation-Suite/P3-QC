@@ -13,15 +13,15 @@ The QC Scheduler Assistant automation handles the weekly task of updating batch 
 
 ## MVP Features
 
-- [x] Assign Quality Auditors to batches based on their skillsets.
-- [x] Identify Secondary Auditors based on their skillsets. 
+- [x] Assign quality auditors to batches based on their skillsets.
+- [x] Identify secondary auditors based on their skillsets. 
 - [x] Track PTO Status of trainers and QC analysts.
-- [x] Remove Batches that are past their end date.
+- [x] Remove batches that are past their end date.
 - [x] Generate a PDF report and send it as an attachment via email.
 
 ### Stretch Goal Features
 
-- Automatically Schedule Showcase 
+- Automatically schedule showcase.
 
 ---
 
@@ -62,6 +62,7 @@ To access the updated Storage Bucket “Automation User” and “Automation Dev
 ## Technology Stack
 
 - UiPath
+- VB.NET
 
 ---
 
