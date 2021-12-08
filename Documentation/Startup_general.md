@@ -1,4 +1,5 @@
-![alt text: revature logo](AutomationDocumentation/images/revature_logo.PNG)
+![alt text: revature logo](images/revature_logo.PNG)
+---
 
 # QC Automation Suite - Startup
 
@@ -115,7 +116,7 @@ Each of the 3 Automations makes use of the following Folder resources:
 > - Put the above-mentioned resources for the _QC Report Helper_ automation(s) into the `QcReportHelper` Folder:
 > - Put the above-mentioned resources for the _P0 Analyzer_ automation(s) into the `P0Analyzer` Folder:
 
-__NOTE_ (_regarding sender emails_): The Gmail account(s) used for the above Assets (`Gmail` and `EmailCred`) must have the Security setting _Less secure app access_ enables. In order to enable this setting:
+__NOTE__ (_regarding sender email account(s)_): The Gmail account(s) used for the above Assets (`Gmail` and `EmailCred`) must have the Security setting _Less secure app access_ enables. In order to enable this setting:
 1. Sign in to `https://myaccount.google.com/` with the account.
 2. Navigate to the `Security` tab.
 3. Locate the _Less secure app access_ box.
@@ -175,7 +176,7 @@ Each of the automations require certain inputs to be entered by the user. These 
 	* It is to be selected in an _input_ element of _select_ type (_single selection dropdown_).
 	* Must be selected before the execution of the `QC Report Helper` and `QC Scheduler` automations.
 - __Project 0 Requirements URL__: This is the GitHub URL to the `ReadMe.md` file with project requirements in the _Project 0_ for which student repository submissions are to be analyzed (assisted by `P0Analyzer`).
-	* Example: `https://github.com/[ Batch Organization ]/trainer-code/wiki/P0-Requirements.md`.
+	* Example: `https://github.com/[ batch organization ]/trainer-code/wiki/P0-Requirements.md`.
 	* This _ReadMe.md_ must contain a _MVP Features_ section.
 	* It is to be entered in an _input_ element of _text_ type (_textbox_).
 	* Must be provided before the execution of the `P0 Analyzer` automation.

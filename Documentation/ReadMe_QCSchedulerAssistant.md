@@ -1,49 +1,31 @@
 ![alt text: revature logo](images/revature_logo.PNG)
 ---
 
-# QC Scheduler Assistant - ReadMe
-
-Roderick Lewis, Steven Agnor, Hassan Barakka
+# QC Scheduler Assistant Read Me
 
 ---
 
-## Software Prerequisites and UiPath Packages [disaggregate and filter]
+## Overview
 
-This Automation requires the use of:
-
-- Microsoft Excel
-- Microsoft Word 
-- Adobe Acrobat Reader DC
-- UiPath Orchestrator
-- UiPath Assistant
-- UiPath Studio
-- UiPath.UIAutomation.Activities (v21.10.3)
-- UiPath.System.Activites (v21.10.2)
-- UiPath.Excel.Activities (v2.11.4)
-- UiPath.WebAPI.Activities (v1.9.2)
-- UiPath.Mail.Activities (v1.12.3)
-
-Note: To run effectively, both Excel, Word, and PDF, or the entire Microsoft Office suite should be installed on the local machine, and there should be no open instances of these programs when the automation is run.
+The QC Scheduler Assistant automation handles the weekly task of updating batch information and scheduling QC auditors. This automation involves the downloading, processing, and uploading of a _QC Schedule_ Excel sheet from/to a central location. The scheduling follows certain rules pertaining to Auditor availability and Auditor skill set restrictions. Further, scheduling of special events such as batch showcases and the removal of batches past their end date is also handled.
 
 ---
 
-## Features
+## MVP Features
 
-### MVP
+- [x] Assign Quality Auditors to batches based on their skillsets.
+- [x] Identify Secondary Auditors based on their skillsets. 
+- [x] Track PTO Status of trainers and QC analysts.
+- [x] Remove Batches that are past their end date.
+- [x] Generate a PDF report and send it as an attachment via email.
 
-- [x] MVP 1 - Assign Quality Auditors 
-- [x] MVP 2 - Identify Secondary Auditors 
-- [x] MVP 3 - Track PTO Status 
-- [x] Remove Batches 
-- [x] Email & PDF Automations 
+### Stretch Goal Features
 
-## Stretch Goals 
-
-- [x] Automatically Schedule Showcase 
+- Automatically Schedule Showcase 
 
 ---
 
-## Input of Automation
+## Automation Inputs
 
 The necessary input for this automation is an Excel Document in the form of a Storage Bucket saved in our project group's organization Tenant Orchestrator, named “Schedule.” This input is updated after every iteration of our automation, and the previous Storage Bucket is deleted before our automation is complete. 
 The excel file must have several premade sheets and populated columns otherwise there will be no references for critical parts within the automation. 
@@ -69,41 +51,23 @@ The Last sheet is the most important, and was begun on “12-6-21” which is th
 
 ---
 
-## Output of Automation
+## Automation Outputs
 
 The outputs for our automation, the Updated Storage Bucket named “Schedule” and Email with PDF Attachment, require the user to provide a specific email address before initiating the automation by clicking the “Scheduler Assistant” button on the Web App API. 
 
 To access the updated Storage Bucket “Automation User” and “Automation Developer permissions must be associated with the desired user, within the organization Tenant for the specific “Scheduler Assistant” folder where the latest version of the automation is published. 
 
-It is also necessary for the user to run the automation on a machine that has Microsoft Word and Excel installed, but no open instances of these programs running during automation runtime.
-
-## License prerequisites
-
-- Windows 10 Home/Pro license 
-- Microsoft Word and Excel license
-- UiPath Studio license with access to both Unattended & Attended Robots
-
-## Software prerequisites
-
-- Windows 10
-- UiPath 2021.10.3
-- UiPath Assistant
-- Uipath Orchestrator
-  - https://cloud.uipath.com/
-- Microsoft Word
-- Microsoft Excel
-- Adobe Acrobat Reader DC
-- Git
+---
 
 ## UiPath Studio Project Dependencies (minimum package version requirements)
 
 - UiPath.UIAutomation.Activities
-  - v21.10.3
+	* v21.10.3
 - UiPath.System.Activites 
-  - v21.10.2
+	* v21.10.2
 - UiPath.Excel.Activities 
-  - v2.11.4
+	* v2.11.4
 - UiPath.WebAPI.Activities 
-  - v1.9.2
+	* v1.9.2
 - UiPath.Mail.Activities 
-  - v1.12.3
+	* v1.12.3
