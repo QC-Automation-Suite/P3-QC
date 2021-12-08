@@ -69,6 +69,13 @@ A data table with associate information is also appended to the report with the 
 
 ---
 
+## Technology Stack
+
+- UiPath
+- Git
+
+---
+
 ## UiPath Studio Project Dependencies (minimum package version requirements)
 
 - UiPath.PDF.Activities 

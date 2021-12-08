@@ -59,6 +59,12 @@ To access the updated Storage Bucket “Automation User” and “Automation Dev
 
 ---
 
+## Technology Stack
+
+- UiPath
+
+---
+
 ## UiPath Studio Project Dependencies (minimum package version requirements)
 
 - UiPath.UIAutomation.Activities

@@ -47,6 +47,12 @@ This automation designed to store and implement data processing following the _D
 
 ---
 
+## Technology Stack
+
+- UiPath
+
+---
+
 ## UiPath Studio Project Dependencies (minimum package version requirements)
 
 - UiPath.System.Activities
