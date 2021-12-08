@@ -1,4 +1,4 @@
-![alt text: revature logo](images/revature_logo.PNG)
+![alt text: revature logo](Documentation/images/revature_logo.PNG)
 ---
 
 # QC Automation Suite Read Me
